@@ -213,7 +213,12 @@ typedef struct binary_tree_s heap_t;
     - Your function must return a pointer to the root node of the created BST, or NULL on failure
     - If a value of the array is already present in the tree, this value must be ignored
 
-* Task 27 - 
+* Task 27 - Write a function that searches for a value in a Binary Search Tree
+    - Prototype: bst_t *bst_search(const bst_t *tree, int value);
+    - Where tree is a pointer to the root node of the BST to search
+    - And value is the value to search in the tree
+    - Your function must return a pointer to the node containing a value equals to value
+    - If tree is NULL or if nothing is found, your function must return NULL
 
 * Task 28 - 
 
