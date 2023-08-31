@@ -13,12 +13,12 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	binary_tree_t *new_node;
 
 	/* Check for empty parent node*/
-	if (parent == NULL)
+	if (!parent)
 		return (NULL);
 
 	/*Assigns value to node and checks for NULL*/
 	new_node = binary_tree_node(parent, value);
-	if (new_node == NULL)
+	if (!new_node)
 		return (NULL);
 
 	/*When left of parent node contains a value*/
