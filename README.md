@@ -173,7 +173,10 @@ typedef struct binary_tree_s heap_t;
     - Where tree is a pointer to the root node of the tree to check
     - If tree is NULL, your function must return 0
 
-* Task 16 - 
+* Task 16 - Write a function that checks if a binary tree is perfect
+    - Prototype: int binary_tree_is_perfect(const binary_tree_t *tree);
+    - Where tree is a pointer to the root node of the tree to check
+    - If tree is NULL, your function must return 0
 
 * Task 17 - 
 
