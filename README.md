@@ -112,20 +112,30 @@ typedef struct binary_tree_s heap_t;
     - Your function must return 1 if node is a leaf, otherwise 0
     - If node is NULL, return 0
 
-* Task 5 - 
+* Task 5 - Write a function that checks if a given node is a root
+    - Prototype: int binary_tree_is_root(const binary_tree_t *node);
+    - Where node is a pointer to the node to check
+    - Your function must return 1 if node is a root, otherwise 0
+    - If node is NULL, return 0
 
 * Task 6 - 
+
 * Task 7 - 
+
 * Task 8 - 
+
 * Task 9 - 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
+
+* Task 10 - 
+* Task 11 - 
+
+* Task 12 - 
+* Task 13 - 
+* Task 14 - 
+* Task 15 - 
+* Task 16 - 
+* Task 17 - 
+
 * Task 0 - 
 * Task 0 - 
 * Task 0 - 
