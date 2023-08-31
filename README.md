@@ -101,7 +101,10 @@ typedef struct binary_tree_s heap_t;
     - Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
     - If parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
 
-* Task 3 - 
+* Task 3 - Write a function that deletes an entire binary tree
+    - Prototype: void binary_tree_delete(binary_tree_t *tree);
+    - Where tree is a pointer to the root node of the tree to delete
+    - If tree is NULL, do nothing
 
 * Task 4 - 
 
