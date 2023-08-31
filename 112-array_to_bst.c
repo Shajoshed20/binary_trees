@@ -5,7 +5,7 @@
  * @array: Variable for pointer to the first element of
  *			the array to be converted
  * @size: Variable for number of elements in array
- * 
+ *
  * Return: A pointer to the root node of the created BST
  *         Otherwise - NULL
  */
