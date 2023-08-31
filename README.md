@@ -186,14 +186,18 @@ typedef struct binary_tree_s heap_t;
     - If node has no sibling, return NULL
 
 * Task 18 - 
-
 * Task 19 - 
-
 * Task 20 - 
 * Task 21 - 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
+* Task 22 - 
+* Task 23 - 
+
+* Task 24 - Write a function that checks if a binary tree is a valid Binary Search Tree
+    - Prototype: int binary_tree_is_bst(const binary_tree_t *tree);
+    - Where tree is a pointer to the root node of the tree to check
+    - Your function must return 1 if tree is a valid BST, and 0 otherwise
+    - If tree is NULL, return 0
+
 * Task 0 - 
 * Task 0 - 
 * Task 0 - 
