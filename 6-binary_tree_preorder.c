@@ -6,7 +6,7 @@
  * @func: a pointer to the function each node should call.
  */
 
-void binary_tree_preorder(cnst binary_tree_t *tree, void (*func)(int))
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
 	while (tree)
 	{
