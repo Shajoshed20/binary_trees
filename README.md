@@ -198,6 +198,37 @@ typedef struct binary_tree_s heap_t;
     - Your function must return 1 if tree is a valid BST, and 0 otherwise
     - If tree is NULL, return 0
 
-* Task 0 - 
-* Task 0 - 
-* Task 0 - 
+* Task 25 - Write a function that inserts a value in a Binary Search Tree
+    - Prototype: bst_t *bst_insert(bst_t **tree, int value);
+    - Where tree is a double pointer to the root node of the BST to insert the value
+    - And value is the value to store in the node to be inserted
+    - Your function must return a pointer to the created node, or NULL on failure
+    - If the address stored in tree is NULL, the created node must become the root node.
+    - If the value is already present in the tree, it must be ignored
+
+* Task 26 - 
+
+* Task 27 - 
+
+* Task 28 - 
+
+* Task 29 - 
+
+* Task 30 - 
+* Task 31 - 
+* Task 32 - 
+* Task 33 - 
+* Task 34 - 
+* Task 35 - 
+
+* Task 36 - 
+
+* Task 37 - 
+
+* Task 38 - 
+
+* Task 39 - 
+
+* Task 40 - 
+
+* Task 41 - 
