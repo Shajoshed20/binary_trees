@@ -34,10 +34,11 @@ size_t binary_tree_size(const binary_tree_t *tree)
 }
 
 /**
- *binary_recursion - returns the value of x raised to the power of y
- *@i: the value to exponentiate
- *@j: the power to raise x to
- *Return: x to the power of y, or -1 if y is negative
+ *binary_recursion - Function to return i raised to the power of j
+ *@i: the value
+ *@j: the power
+ *Return: i to the power of j,
+ *			-1 for y is negative
  */
 
 int binary_recursion(int i, int j)
@@ -53,7 +54,6 @@ int binary_recursion(int i, int j)
 
 /**
  * binary_tree_height- Height measurement of a binary tree
- *
  * @tree: a pointer to the tree's root node, which must be traversed
  *
  * Return: Height of the tree, return 0 if tre is NULL
