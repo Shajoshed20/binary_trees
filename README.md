@@ -252,4 +252,7 @@ typedef struct binary_tree_s heap_t;
 
 * Task 40 - 
 
-* Task 41 - 
+* Task 41 - What are the average time complexities of those operations on a Binary Heap (one answer per line):
+    - Inserting the value n
+    - Extracting the root node
+    - Searching for a node in a binary heap of size n
