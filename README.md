@@ -163,7 +163,10 @@ typedef struct binary_tree_s heap_t;
     - If tree is NULL, the function must return 0
     - A NULL pointer is not a node
 
-* Task 14 - 
+* Task 14 - Write a function that measures the balance factor of a binary tree
+    - Prototype: int binary_tree_balance(const binary_tree_t *tree);
+    - Where tree is a pointer to the root node of the tree to measure the balance factor
+    - If tree is NULL, return 0
 
 * Task 15 - 
 
