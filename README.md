@@ -222,9 +222,18 @@ typedef struct binary_tree_s heap_t;
     - Your function must return a pointer to the node containing a value equals to value
     - If tree is NULL or if nothing is found, your function must return NULL
 
-* Task 28 - 
+* Task 28 - Write a function that removes a node from a Binary Search Tree
+    - Prototype: bst_t *bst_remove(bst_t *root, int value);
+    - Where root is a pointer to the root node of the tree where you will remove a node
+    - And value is the value to remove in the tree
+    - Once located, the node containing a value equals to value must be removed and freed
+    - If the node to be deleted has two children, it must be replaced with its first in-order successor (not predecessor)
+    - Your function must return a pointer to the new root node of the tree after removing the desired value
 
-* Task 29 - 
+* Task 29 - What are the average time complexities of those operations on a Binary Search Tree (one answer per line):
+    - Inserting the value n
+    - Removing the node with the value n
+    - Searching for a node in a BST of size n
 
 * Task 30 - 
 * Task 31 - 
