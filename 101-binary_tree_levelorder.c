@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_levelorder - Traverse a binary tree 
+ * binary_tree_levelorder - Traverse a binary tree
  * @tree: tree pointer
  * @func: function calling node
  */
@@ -23,6 +23,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 	while (front < rear)
 	{
 		binary_tree_t *current = queue[front++];
+
 		func(current->n);
 
 		if (current->left)
