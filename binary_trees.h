@@ -97,5 +97,9 @@ int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 /* Other functions*/
 int binary_recursion(int i, int j);
+bst_t *successor(bst_t *node);
+bst_t *delete_node(bst_t *root, bst_t *node);
+bst_t *delete_recurse(bst_t *root, bst_t *node, int value);
+bst_t *bst_remove(bst_t *root, int value);
 
 #endif /* BINARY_TREES_H */
