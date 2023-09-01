@@ -1,12 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tress_ancestor - FInds the lowest ancestor of two nodes
- *
+ * binary_trees_ancestor - Finds the lowest ancestor of two nodes
  * @first: A pointer to the first node
  * @second: A pointer to the second node
  *
- * @Return: Common ancestor or NULL
+ * Return: Common ancestor or NULL
  */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		const binary_tree_t *second)
