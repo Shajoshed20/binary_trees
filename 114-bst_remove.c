@@ -89,5 +89,33 @@ bst_t *delete_recurse(bst_t *root, bst_t *node, int value)
  */
 bst_t *bst_remove(bst_t *root, int value)
 {
-	return (delete_recurse(root, root, value));
+	bst_t *tmp;
+
+	if (root == NULL)
+		return (root);
+
+	if(value < root->n)
+		root->left = bst_remove(root->left, value);
+	else if (value > root->n)
+		roor->right = bst_remove(root->right, value);
+	else
+	{
+		if (root->left == NULL)
+		{
+			tmp = root->right;
+			free(root);
+			return(tmp);
+		}
+		else if (root->right == NULL)
+		{
+			tmp = root->left;
+			free(root);
+			return(tmp);
+		}
+
+		tmp = successor(root->right);
+		root->n = tmp->n;
+		root->right = bst_remove(root->right, tmp ->n);
+	}
+	return (root);
 }
