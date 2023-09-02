@@ -94,28 +94,28 @@ bst_t *bst_remove(bst_t *root, int value)
 	if (root == NULL)
 		return (root);
 
-	if(value < root->n)
+	if (value < root->n)
 		root->left = bst_remove(root->left, value);
 	else if (value > root->n)
-		roor->right = bst_remove(root->right, value);
+		root->right = bst_remove(root->right, value);
 	else
 	{
 		if (root->left == NULL)
 		{
 			tmp = root->right;
 			free(root);
-			return(tmp);
+			return (tmp);
 		}
 		else if (root->right == NULL)
 		{
 			tmp = root->left;
 			free(root);
-			return(tmp);
+			return (tmp);
 		}
 
 		tmp = successor(root->right);
 		root->n = tmp->n;
-		root->right = bst_remove(root->right, tmp ->n);
+		root->right = bst_remove(root->right, tmp->n);
 	}
 	return (root);
 }
