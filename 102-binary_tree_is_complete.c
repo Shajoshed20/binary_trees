@@ -50,11 +50,11 @@ static queue_node_t *queue_pop(queue_node_t *front)
  */
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
-	if (!tree)
-		return (0);
-
 	queue_node_t *queue = NULL;
 	int level_started = 0;
+
+	if (!tree)
+		return (0);
 
 	queue = queue_push(queue, tree);
 
